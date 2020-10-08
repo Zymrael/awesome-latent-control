@@ -19,7 +19,7 @@ A collection of resources regarding the interplay between control, causality, la
 
 * Mastering Atari With Discrete World Models: [NeurIPS20](https://arxiv.org/pdf/2010.02193.pdf)
 
-> Compared to model-free reinforcement learning that learn through trial and error, world models  facilitate generalization and can predict the outcomes of potential actions to enable planning In this paper, we introduce DreamerV2, the first reinforcement learning agent that achieves humanlevel performance on the Atari benchmark by learning behaviors purely within a separately trained world model
+> Compared to model-free reinforcement learning that learn through trial and error, world models  facilitate generalization and can predict the outcomes of potential actions to enable planning In this paper, we introduce DreamerV2, the first reinforcement learning agent that achieves human level performance on the Atari benchmark by learning behaviors purely within a separately trained world model
 
 * Causal Discovery in Physical Systems from Videos: [NeurIPS20](https://arxiv.org/pdf/2010.02193.pdf)
 
