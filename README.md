@@ -21,7 +21,7 @@ A collection of resources regarding the interplay between control, causality, la
 
 > Compared to model-free reinforcement learning that learn through trial and error, world models  facilitate generalization and can predict the outcomes of potential actions to enable planning In this paper, we introduce DreamerV2, the first reinforcement learning agent that achieves human level performance on the Atari benchmark by learning behaviors purely within a separately trained world model
 
-* Causal Discovery in Physical Systems from Videos: [NeurIPS20](https://arxiv.org/pdf/2010.02193.pdf)
+* Causal Discovery in Physical Systems from Videos: [NeurIPS20](https://arxiv.org/pdf/2010.02193.pdf), [code](https://github.com/pairlab/v-cdn)
 
 > We consider the task of causal discovery from videos in an end-to-end fashion without supervision on the ground-truth graph structure. . In particular, our goal is to discover the structural dependencies among environmental and object variables: inferring the type and strength of interactions that have a causal effect on the behavior of the dynamical system. Our model consists of a perception module that extracts a semantically meaningful and temporally consistent keypoint representation from images, an inference module for determining the graph distribution induced by the detected keypoints, and a dynamics module that can predict the future by conditioning on the inferred graph. The main contributions of this work lie in the one-shot discovery of unseen causal mechanisms in new environments from partially observed visual data in a continuous state space.
 
