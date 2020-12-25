@@ -7,7 +7,7 @@ A collection of resources regarding the interplay between control, causality, la
 
 * **Latent space control**
 
-	* [Learning from observations](#world-models)
+	* [Learning from images and videos](#world-models)
 
 
 ## Latent space control
@@ -15,7 +15,8 @@ A collection of resources regarding the interplay between control, causality, la
 *  First Steps: Latent-Space Control with Semantic Constraints for Quadruped Locomotion: [IROS20](https://arxiv.org/pdf/2007.01520.pdf)
 > Traditionally, trajectory optimisation for quadrupeds is solved using constrained optimisation. However, the robots feasible joint space and dynamics such as stability, torque limits, and contact forces, require complex often nondifferentiable constraints. This makes the optimisation intractable. A typical approach, therefore, is to use approximate, hand-derived dynamic models and arbitrarily reduce the kinematic range of the robot. Here, we propose a radically different approach to quadruped control. Using a generative model of the robot state we perform trajectory optimisation by directly optimising the position in a structured latent space, which captures a statistical model of the robots feasible joint-space
 
-## Learning from observations
+
+## Learning from images and videos
 
 * Mastering Atari With Discrete World Models: [NeurIPS20](https://arxiv.org/pdf/2010.02193.pdf)
 
@@ -24,6 +25,11 @@ A collection of resources regarding the interplay between control, causality, la
 * Causal Discovery in Physical Systems from Videos: [NeurIPS20](https://arxiv.org/pdf/2010.02193.pdf), [code](https://github.com/pairlab/v-cdn)
 
 > We consider the task of causal discovery from videos in an end-to-end fashion without supervision on the ground-truth graph structure. . In particular, our goal is to discover the structural dependencies among environmental and object variables: inferring the type and strength of interactions that have a causal effect on the behavior of the dynamical system. Our model consists of a perception module that extracts a semantically meaningful and temporally consistent keypoint representation from images, an inference module for determining the graph distribution induced by the detected keypoints, and a dynamics module that can predict the future by conditioning on the inferred graph. The main contributions of this work lie in the one-shot discovery of unseen causal mechanisms in new environments from partially observed visual data in a continuous state space.
+
+* Unsupervised Learning of Lagrangian Dynamics from Images for Prediction and Control: [NeurIPS20](https://proceedings.neurips.cc/paper/2020/file/79f56e5e3e0e999b3c139f225838d41f-Paper.pdf)
+
+> Recent approaches for modelling dynamics of physical systems with neural networks enforce Lagrangian or Hamiltonian structure to improve prediction and generalization. However, when coordinates are embedded in high-dimensional data such as images, these approaches either lose interpretability or can only be applied to one particular example. We introduce a new unsupervised neural network model that learns Lagrangian dynamics from images, with interpretability that benefits prediction and control. The model infers Lagrangian dynamics on generalized coordinates that are simultaneously learned with a coordinate-aware variational autoencoder (VAE).
+
 
 ## Representation learning of dynamical systems
 
